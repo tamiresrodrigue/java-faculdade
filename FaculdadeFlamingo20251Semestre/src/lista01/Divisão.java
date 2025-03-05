@@ -1,4 +1,4 @@
-package basico.java;
+package lista01;
 
 import java.util.Scanner;
 

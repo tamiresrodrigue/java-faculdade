@@ -1,4 +1,4 @@
-package basico.java;
+package lista01;
 
 import java.util.Scanner;
 
@@ -14,5 +14,4 @@ public class Multiplicação {
 	    System.out.println("A multiplicação dos valores digitados é:" +resultado);	
 	    sc.close();
 	}
-
 }
