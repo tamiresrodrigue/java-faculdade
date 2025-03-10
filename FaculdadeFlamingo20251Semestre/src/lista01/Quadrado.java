@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Quadrado {
 	public static void main(String[]args) {
-		Scanner sc= new Scanner(System.in);
+	Scanner sc= new Scanner(System.in);
 		System.out.println("Digite o valor que deseja saber o quadrado:");
 		float numero1 = sc.nextFloat();
 		float resultado = numero1 * numero1;
@@ -13,5 +13,4 @@ public class Quadrado {
 	
 		sc.close();
 	}
-
 }

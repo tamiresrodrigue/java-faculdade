@@ -2,7 +2,7 @@ package lista02;
 
 import java.util.Scanner;
 
-public class ConversorMoedas {
+public class ConversãoMoedas {
 
 	public static void main(String[] args) {
 	//Importação de uma Classe

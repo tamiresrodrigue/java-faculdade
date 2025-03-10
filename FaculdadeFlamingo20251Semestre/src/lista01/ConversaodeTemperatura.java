@@ -1,7 +1,7 @@
 package lista01;
 	import java.util.Scanner;
 	
-public class ConversaoTemperatura {
+public class ConversaodeTemperatura {
 	public static void main(String[]args) {
 		Scanner sc = new Scanner (System.in);
 		
