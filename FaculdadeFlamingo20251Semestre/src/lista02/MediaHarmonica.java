@@ -1,22 +1,31 @@
 package lista02;
 
+import java.util.Scanner;
+
 public class MediaHarmonica {
-	public static void main(String[]args) {
+
+	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite o 1 numero: ");
-		int numero01 = sc.nextInt();
-		System.out.println("Digite o 2 numero: ");
-		int numero02 = sc.nextInt();
-		System.out.println("Digite 0 3 numero: ");
-		int numero03 = sc.nextInt();
-		//calcular o MMC (Minimo, Multiplo Comum)
-		/*(3*6*9)=> 3*6*9=162*/
-		float mediaHarmonica =3* (numero01+numero02+numero03)/
-	
+		System.out.print("Digite a quantidade de números: ");
+		int numero = sc.nextInt();
+		
+		double somaInversos = 0.0;
+		double[] numeros = new double[numero];
+		
+		for (int i = 0; i < numero; i++) {
+			System.out.print("Digite o número " + (i + 1) + ": ");
+			numeros[i] = sc.nextDouble();
+			
+			somaInversos += 1.0 / numeros[i];
+		}
+		
+		double mediaHarmonica = numero / somaInversos;
+		
+		System.out.printf("A media harmõnica dos números fornecidos é: %.2f%n", mediaHarmonica);
+		
+		sc.close();
 		
 	}
-	
-
 }

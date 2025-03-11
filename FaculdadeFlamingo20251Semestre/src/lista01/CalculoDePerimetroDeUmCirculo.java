@@ -2,14 +2,19 @@ package lista01;
 import java.util.Scanner;
 
 public class CalculoDePerimetroDeUmCirculo {
-	public static void main(String[]args) {
+public static void main(String[] args) {
 		
-	Scanner sc = new Scanner(System.in);
-	
-	System.out.println("Digite o raio de um circulo: ");
-	
-	float raio = 
-	
-	sc.close();
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o raio do perimetro");
+		
+		double raio = sc.nextDouble();
+		
+		double perimetro = 2 * Math.PI * raio;
+		
+		System.out.println("O perimetro do circulo é: " + perimetro);
+		
+		sc.close();
 	}
+
 }
