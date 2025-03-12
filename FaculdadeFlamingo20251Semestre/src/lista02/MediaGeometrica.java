@@ -2,7 +2,7 @@ package lista02;
 
 import java.util.Scanner;
 
-public class MediaGemometrica {
+public class MediaGeometrica {
 	
 	public static void main(String[] args) {
 		
